@@ -1,23 +1,30 @@
 {
-  "name": "front-end-devtask",
-  "version": "1.0.0",
+  "name": "hook-form",
   "description": "AMBOSS Next Front-End Dev Task",
   "author": "AMBOSS Next",
+  "scripts": {
+    "dev": "parcel index.html --log-level 3 --open"
+  },
   "dependencies": {
+    "@monorepo/hooks": "^1.0.0",
     "@emotion/core": "^10.0.6",
     "@emotion/styled": "^10.0.6",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "emotion": "^10.0.6",
-    "react": ">=16.3.0",
+    "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "src": "^1.1.2"
-  },
-  "scripts": {
-    "dev": "parcel src/index.html --log-level 3 --open"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "parcel-bundler": "^1.11.0"
-  }
+  },
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }

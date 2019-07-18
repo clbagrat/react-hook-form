@@ -1,0 +1,10 @@
+{
+  "description": "AMBOSS Next Front-End Dev Task",
+  "author": "AMBOSS Next",
+  "name": "@monorepo/hooks",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.7.0"
+  }
+}

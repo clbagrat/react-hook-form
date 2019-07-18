@@ -1,8 +1,0 @@
-.eslintignore
-.eslintrc
-.prettierignore
-.stylelintrc
-
-.cache/
-dist/
-node_modules/

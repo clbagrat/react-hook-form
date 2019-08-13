@@ -1,10 +1,10 @@
-import { createChecker } from '@monorepo/hooks/Helpers/Validate/createChecker';
+import { createChecker } from 'react-micro-form/Helpers/Validate/createChecker';
 import {
   required,
   stringOnly,
   numberOnly,
   phoneNumber,
-} from '@monorepo/hooks/Helpers/Validate/validators';
+} from 'react-micro-form/Helpers/Validate/validators';
 import { FieldNames } from './constants';
 
 export const validate = createChecker({

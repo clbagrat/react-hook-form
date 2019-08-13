@@ -15,7 +15,7 @@ const StyledPre = styled.pre`
   color: #ccc;
 `;
 
-export const ExampleFormContainer = ({ children }) => {
+export const FormContainer = ({ children }) => {
   const [values, setValues] = useState({});
 
   return (

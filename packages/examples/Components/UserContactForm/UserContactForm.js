@@ -2,8 +2,8 @@
 // see the SINGLE IMPLEMENTATION section for details
 import React from 'react';
 import styled from '@emotion/styled';
-import { useField, useForm } from '@monorepo/hooks/Form';
-import { FormControl } from '../../Form/FormControl';
+import { useField, useForm } from 'react-micro-form/Form';
+import { FormControl } from '../FormControl';
 import { StyledInput } from '../../StyledComponents/StyledInput';
 import { StyledButton } from '../../StyledComponents/StyledButton';
 

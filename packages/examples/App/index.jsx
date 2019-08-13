@@ -7,10 +7,9 @@ import {
   SelectForm,
   CustomControlForm,
   WarningsForm,
-  UserContactForm
-} from './Examples';
-import { ExampleFormContainer } from './Form/ExampleFormContainer';
-import { ContentToggler } from './ContentToggler/ContentToggler';
+  UserContactForm,
+  FormContainer,ContentToggler
+} from '../Components';
 
 const globalStyles = css`
   body {
@@ -52,11 +51,11 @@ const App = () => {
         {Object.entries(ExampleForms).map(([title, FormComponent]) => (
           <Fragment key={title}>
             <FormSubHeader>{title}</FormSubHeader>
-            <ExampleFormContainer>
+            <FormContainer>
               {onChange => (
                 <FormComponent onSubmit={onSubmit} onChange={onChange} />
               )}
-            </ExampleFormContainer>
+            </FormContainer>
           </Fragment>
         ))}
       </ContentToggler>
@@ -65,3 +64,5 @@ const App = () => {
 };
 
 export default App;
+
+

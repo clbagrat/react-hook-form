@@ -1,0 +1,21 @@
+{
+  "name": "examples",
+  "description": "AMBOSS Next Front-End Dev Task",
+  "author": "AMBOSS Next",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.6",
+    "@emotion/styled": "^10.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "emotion": "^10.0.6",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-micro-form": "^1.0.0",
+    "src": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3"
+  }
+}
